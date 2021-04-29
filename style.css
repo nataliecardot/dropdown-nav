@@ -12,26 +12,16 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  background: -webkit-linear-gradient(
+    to right,
+    #9fb9dd,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
-      45deg,
-      hsla(340, 100%, 55%, 1) 0%,
-      hsla(340, 100%, 55%, 0) 70%
-    ),
-    linear-gradient(
-      135deg,
-      hsla(225, 95%, 50%, 1) 10%,
-      hsla(225, 95%, 50%, 0) 80%
-    ),
-    linear-gradient(
-      225deg,
-      hsla(140, 90%, 50%, 1) 10%,
-      hsla(140, 90%, 50%, 0) 80%
-    ),
-    linear-gradient(
-      315deg,
-      hsla(35, 95%, 55%, 1) 100%,
-      hsla(35, 95%, 55%, 0) 70%
-    );
+    to right,
+    #9fb9dd,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 h2 {
@@ -45,7 +35,7 @@ nav {
 }
 
 .cool > li > a {
-  color: yellow;
+  color: #fff;
   text-decoration: none;
   font-size: 20px;
   background: rgba(0, 0, 0, 0.2);
