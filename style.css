@@ -132,6 +132,10 @@ nav ul {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.courses li:last-of-type {
+  border-bottom: none; /* border style */
+}
+
 .dropdown a {
   text-decoration: none;
   color: #ffc600;
